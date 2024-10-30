@@ -38,6 +38,7 @@ class MovieRental implements IMovieRental {
         System.out.println("Rental Duration (Days): " + this.getRentalDays());
         System.out.println("Daily Rate: $" + this.getPricePerDay());
         System.out.println("Total Rental Cost: $" + this.calculateSubtotal());
+        System.out.println("aa");
     }
 
     /**
